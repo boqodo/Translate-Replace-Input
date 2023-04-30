@@ -18,3 +18,7 @@
 
 ## 前提条件
 1. 翻译使用openai，需要替换成自己的openai api key，替换background-script.js 39行，apiKey。
+
+
+# 开发说明
+> 该插件使用gpt4编写，只进行了少部分调整。
