@@ -26,6 +26,7 @@
 
 ## 前提条件
 1. 翻译使用openai，需要替换成自己的openai api key，替换background-script.js 39行，apiKey。
+2. 使用openai的接口，需要科学上网，否则无法使用。
 
 
 # 开发说明
