@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Translate-Replace-Input",
+  "version": "1.0",
+  "description": "Translate selected Chinese text to English and replace the selected text with the translation.",
+  "permissions": ["contextMenus"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background-script.js"],
+    "persistent": false
+  },
+  "commands": {
+    "translateSelectedText": {
+      "suggested_key": {
+        "default": "Ctrl+R"
+      },
+      "description": "Translate selected Chinese text to English and replace the selected text with the translation."
+    }
+  },  
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
