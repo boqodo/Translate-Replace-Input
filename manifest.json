@@ -17,7 +17,8 @@
   "commands": {
     "translateSelectedText": {
       "suggested_key": {
-        "default": "Ctrl+R"
+        "default": "Alt+R",
+        "mac": "Ctrl+R"
       },
       "description": "Translate selected Chinese text to English and replace the selected text with the translation."
     }

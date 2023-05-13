@@ -21,7 +21,8 @@
 
 ## 使用方法
 1. 选中需要翻译的中文文本
-2. 右键菜单选择“Translate-Replace-Input” 或 快捷键 ctrl+R
+2. 右键菜单选择“Translate-Replace-Input” 
+3. 快捷键，mac：Ctrl+R ,windows：Alt+R   (Ctrl+R跟浏览器的刷新快捷键冲突，所以mac和windows的快捷键不一样)
 
 
 ## 前提条件
